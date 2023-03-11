@@ -5,10 +5,10 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: orenyomtov-openordex_server_1
+      APP_HOST: orenyomtov-openordex_web_1
       APP_PORT: 8020
 
-  server:
+  web:
     image: muthudotbtc/openordex:latest
     user: "1000:1000"
     init: true
