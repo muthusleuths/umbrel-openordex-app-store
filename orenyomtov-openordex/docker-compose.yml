@@ -10,5 +10,7 @@ services:
 
   server:
     image: muthudotbtc/openordex:latest
-    user: "1000:1000"
+    #user: "1000:1000"
     init: true
+    ports:
+      - 8080:8080
