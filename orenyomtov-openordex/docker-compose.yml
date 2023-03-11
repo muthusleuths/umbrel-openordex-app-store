@@ -14,3 +14,5 @@ services:
     stop_grace_period: 1m
     user: "1000:1000"
     init: true
+    ports:
+      - 8020:8080
