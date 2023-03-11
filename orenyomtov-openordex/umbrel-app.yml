@@ -5,8 +5,7 @@ tagline: OpenOrdex is an open source zero-fee trustless Bitcoin NFT marketplace 
 icon: https://raw.githubusercontent.com/orenyomtov/openordex/main/img/favicon/apple-touch-icon.png
 category: Development
 version: "0.0.1"
-ports:
-  - 8021:8020
+port: 8021
 description: >-
   OpenOrdex is an open source zero-fee trustless Bitcoin NFT marketplace based on partially signed bitcoin transactions.
   This is an early alpha version of the app on Umbrel. Use with caution.
