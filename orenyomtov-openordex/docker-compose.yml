@@ -6,11 +6,11 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: orenyomtov-openordex_server_1
-      APP_PORT: 8022
+      APP_PORT: 8020
 
   server:
     image: muthudotbtc/openordex:latest
     user: "1000:1000"
     init: true
     ports:
-      - 8022:8022
+      - 8020:8020
