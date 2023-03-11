@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: orenyomtov-openordex
+name: Openordex
+tagline: OpenOrdex is an open source zero-fee trustless Bitcoin NFT marketplace based on partially signed bitcoin transactions
+icon: https://raw.githubusercontent.com/orenyomtov/openordex/main/img/favicon/apple-touch-icon.png
+category: Development
+version: "0.0.1"
+port: 8021
+description: >-
+  OpenOrdex is an open source zero-fee trustless Bitcoin NFT marketplace based on partially signed bitcoin transactions.
+  This is an early alpha version of the app on Umbrel. Use with caution.
+
+
+developer: Oren Yomtov
+website: https://openordex.org
+submitter: muthudotbtc
+submission: https://github.com/muthudotbtc/umbrel-openordex-app-store
+repo: https://github.com/muthudotbtc/umbrel-openordex-app-store
+support: https://github.com/muthudotbtc/umbrel-openordex-app-store/issues
+gallery:
+  - https://raw.githubusercontent.com/orenyomtov/openordex/main/img/screenshot.png
+  - https://user-images.githubusercontent.com/115091323/223142708-3eb0e8d7-08d7-4854-9d3f-32ddda7f975d.png
+releaseNotes: >-
+  This is an early alpha version of Openordex running on Umbrel.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
